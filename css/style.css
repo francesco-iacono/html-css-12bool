@@ -1,0 +1,10 @@
+footer .col-2 {
+  line-height: normal;
+  padding: 42px 0;
+}
+footer .col-6>.col-2,
+footer .col-6>.col-8,
+footer .col-6>.col-6 {
+  background-color: #EF7F80;
+  border: 1px solid white;
+}
