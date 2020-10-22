@@ -9,7 +9,6 @@ body {
 .container {
   max-width: 800px;
   margin: auto;
-  background-color: pink;
 }
 .container::after {
   content: "";
@@ -18,10 +17,6 @@ body {
 }
 [class*='col-'] {
   float: left;
-  text-align: center;
-  line-height: 100px;
-  padding: 10px;
-  border: 1px solid black;
 }
 
 .col-1 {

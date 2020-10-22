@@ -1,3 +1,12 @@
+.container {
+  background-color: pink;
+}
+[class*='col-'] {
+  border: 1px solid black;
+  line-height: 100px;
+  padding: 10px;
+  text-align: center;
+}
 footer .col-2 {
   line-height: normal;
   padding: 42px 0;
